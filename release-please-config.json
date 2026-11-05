@@ -4,8 +4,12 @@
     ".": {
       "release-type": "simple",
       "extra-files": [
-        { "type": "generic", "path": "provider.py" }
-      ]
+        {
+          "type": "generic",
+          "path": "provider.py"
+        }
+      ],
+      "bump-minor-pre-major": true
     }
   }
 }
